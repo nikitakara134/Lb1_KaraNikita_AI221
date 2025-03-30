@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Фонове зображення -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/birthday"/>
+
+    <!-- Лівий верхній шарик -->
+    <ImageView
+        android:id="@+id/balloonLeft"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/balon"
+        android:layout_margin="30dp"
+        android:layout_gravity="start|top"/>
+
+    <!-- Правий верхній шарик -->
+    <ImageView
+        android:id="@+id/balloonRight"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/balon"
+        android:layout_margin="20dp"
+        android:layout_gravity="end|top"/>
+
+    <!-- Текст по центру -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="З Днем народження!"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_gravity="center"/>
+</FrameLayout>
