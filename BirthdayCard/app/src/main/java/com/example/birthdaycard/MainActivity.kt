@@ -37,7 +37,7 @@ fun MainScreen() {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // Тепер не використовуємо AndroidView для XML, а тільки Compose
+        
         // Вставка вашої кнопки в Compose
         Button(
             onClick = {
