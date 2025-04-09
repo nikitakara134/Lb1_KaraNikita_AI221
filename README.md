@@ -3,4 +3,4 @@
 
 # 2. Гра вгадування слів
 
-![image](https://github.com/user-attachments/assets/8a295b4e-6400-4d69-a727-d97c1f83b7da)
+![скрин лаба 1](https://github.com/user-attachments/assets/c24d2920-f30b-4ece-9226-e95d8ef5e807)
