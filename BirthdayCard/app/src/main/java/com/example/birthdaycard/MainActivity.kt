@@ -38,7 +38,7 @@ fun MainScreen() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         
-        // Вставка вашої кнопки в Compose
+        // Вставка кнопки в Compose
         Button(
             onClick = {
                 val intent = Intent(context, GameActivity::class.java)
